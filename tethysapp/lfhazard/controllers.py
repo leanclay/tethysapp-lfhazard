@@ -44,12 +44,16 @@ def home(request):
         multiple=False,
         options=[
             ('Alaska', 'Alaska'),
+            ('Arizona', 'Arizona'),
+            ('California', 'California'),
             ('Connecticut', 'Connecticut'),
             ('Idaho', 'Idaho'),
             ('Montana', 'Montana'),
+            ('Nevada', 'Nevada'),
             ('Oregon', 'Oregon'),
             ('South Carolina', 'South_Carolina'),
             ('Utah', 'Utah'),
+            ('Washington', 'Washington'),
         ],
         initial=['Utah', 'Utah']
     )
